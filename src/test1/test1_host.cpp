@@ -141,7 +141,7 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char** args) {
 		// TODO: push
 		// if have something to push, do the same for push
 
-		std::this_thread::sleep_for(10ms);
+		std::this_thread::sleep_for(100ms);
 	}
 
 	zed_net_shutdown();

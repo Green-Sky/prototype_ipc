@@ -1,10 +1,10 @@
 # test1
 
-the host opens a tcp port for listening
-the host starts the service process via std::system
-the service get the port via arg and connects back
-the host starts polling via rpc (zpp_bits serialization and function dispatcher)
-the service serves rpc
+1. the host opens a tcp port for listening
+2. the host starts the service process via std::system
+3. the service get the port via arg and connects back
+4. the host starts polling via rpc (zpp_bits serialization and function dispatcher)
+5. the service serves rpc
 
 ### example log output:
 ```
